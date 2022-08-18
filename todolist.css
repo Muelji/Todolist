@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    background-color:rgb(55, 209, 230);
+    font-size: 30px;
+
+}
+
+#userinput{
+            border: 5px solid rgb(255, 0, 221);
+            width: 15%;
+            height: 70px;
+            border-radius: 30px;
+            background-color: rgb(231, 120, 185);
+            font-size: 20px;
+
+}
+
+#enter{border: 5px solid rgb(255, 0, 221);
+        width: 10%;
+        height: 70px;
+       border-radius: 30px;
+       background-color:rgb(6, 56, 68);
+       font-size: 20px;
+       color: pink;
+}
+#order{border: 5px solid rgb(255, 0, 221);
+    width: 10%;
+    height: 70px;
+   border-radius: 30px;
+   background-color:rgb(6, 56, 68);
+   font-size: 20px;
+   color: pink;
+}
+
+
+
+h2{border: 3px solid rgb(243, 92, 205);
+   border-width: 5rem;
+   text-align: center;
+   color: blueviolet;
+}
+
+.div1{background-color: rgb(108, 217, 231);
+
+
+
+}
+
+li{list-style: none;
+   cursor: pointer;
+   position: relative;
+   padding: 12px 8px 12px 40px;
+   transition: 0.4s;
+   color: rgb(233, 40, 201);
+}
+
+
+li:nth-child(even){
+         background-color: rgb(245, 186, 240);
+         border-radius: 6px;
+         color: rgb(12, 203, 236);
+}
+
+li:hover{
+        background: rgb(240, 112, 214);
+        transition: .10s ease-out;
+        transform: rotateZ(0);
+}
+
+
+ul li.checked{
+    text-decoration: line-through;
+}
+
